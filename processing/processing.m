@@ -73,10 +73,10 @@ for i = 1:numel(files)
     y_data = rmmissing(final_data(2,:));
     
     % plot the data
-    disp(x_data(1));
-    disp(y_data(1));
-    disp(x_data(2));
-    disp(y_data(2));
+    % disp(x_data(1));  % These lines are here to debug and check the results
+    % disp(y_data(1));
+    % disp(x_data(2));
+    % disp(y_data(2));
     % plot(x_data, y_data,'.', 'markersize', 28); % Another plotting style
     plot(x_data, y_data,'LineWidth', 1.5); 
 
