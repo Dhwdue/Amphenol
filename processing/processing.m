@@ -84,7 +84,8 @@ for i = 1:numel(files)
     xlabel('Freq (Hz)');
     ylabel('LAGc');
     xlim auto
-    ylim auto
+%     ylim auto
+    ylim([-20 10]);
     grid on;  % Add grid lines
 
      % Save the plot as a JPG file in the output folder
